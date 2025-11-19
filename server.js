@@ -14,8 +14,8 @@ app.get("/", (req, res) => {
   // CHANGE #1 — Replace "men-shoes" with YOUR KEYWORD PARAMETER
   // CHANGE #2 — Replace "offer-men-shoes.html" with YOUR LANDING PAGE FILE
   // -----------------------------------------------------------
-  if (promo === "men-shoes") {
-    return res.sendFile(path.join(__dirname, "public", "offer-men-shoes.html"));
+  if (promo === "rojabet") {
+    return res.sendFile(path.join(__dirname, "public", "lander","index.html"));
   }
 
   // -----------------------------------------------------------
