@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
   // CHANGE #2 — Replace "offer-men-shoes.html" with YOUR LANDING PAGE FILE
   // -----------------------------------------------------------
   if (promo === "rojabet") {
-    return res.sendFile(path.join(__dirname, "public","lander.html","dex.html"));
+    return res.sendFile(path.join(__dirname, "public","lander","dex.html"));
   }
 
   // -----------------------------------------------------------
