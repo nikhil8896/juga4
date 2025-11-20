@@ -12,5 +12,12 @@
         <a href="http://garrix.site/?utm_campaign=gO372yzBEZ&v1=[v1]&v2=[v2]&v3=[v3]"><img src="./Images/tab.webp" alt="tab" class="tab"></a>
         <a href="http://garrix.site/?utm_campaign=gO372yzBEZ&v1=[v1]&v2=[v2]&v3=[v3]"><img src="./Images/mob.webp" alt="mob" class="mob"></a>
     </div>
+    <script>
+  if (window.location.search.includes("promo=")) {
+    const newUrl = window.location.origin + window.location.pathname;
+    window.history.replaceState({}, "", newUrl);
+  }
+</script>
 </body>
 </html>
+
